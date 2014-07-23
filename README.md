@@ -3,6 +3,8 @@ bakaconf
 
 A junky configuration store.
 
+[![Build Status](https://travis-ci.org/kumatch/bakaconf.png?branch=master)](https://travis-ci.org/kumatch/bakaconf)
+
 
 Install
 --------
