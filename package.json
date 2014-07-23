@@ -1,0 +1,24 @@
+{
+  "name": "bakaconf",
+  "description": "A junky configuration store.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "git://github.com/kumatch/bakaconf.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader --reporter spec test/**/*.test.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.0"
+  },
+  "devDependencies": {
+    "espower-loader": "^0.7.1",
+    "intelli-espower-loader": "^0.2.0",
+    "mocha": "^1.20.1",
+    "power-assert": "^0.7.2"
+  }
+}
