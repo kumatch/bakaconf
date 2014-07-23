@@ -31,7 +31,7 @@ This case will be written a JSON value to file `$HOME/.config/myapp/samples.json
 Methods
 -------
 
-=== var conf = bakaconf(options)
+### var conf = bakaconf(options)
 
 Create bakaconf instance.
 
@@ -41,16 +41,16 @@ options:
 * namespace: configuration namespace (default: bakaconf)
 
 
-=== conf.write(name, value, callback)
+### conf.write(name, value, callback)
 
 Write a configuration value by name.
 
 
-=== conf.read(name, callback)
+### conf.read(name, callback)
 
 Read a configuration value by name. The callback will be given two arguments `(err, value)`.
 
-=== conf.remove(name, callback)
+### conf.remove(name, callback)
 
 Remove a configuration value by name.
 
